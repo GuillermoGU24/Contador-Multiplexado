@@ -18,7 +18,14 @@ El sistema funciona con **batería 18650 recargable**, incluye regulación de vo
 - Código optimizado para evitar ghosting
 
 ---
+## Diseño
 
+![Diseño](Diseño/diseño1.png)
+![Diseño](Diseño/diseño2.png)
+![Diseño](Diseño/diseño3.png)
+![Diseño](Diseño/diseño4.png)
+
+---
 ## Funcionamiento
 
 El sistema usa **multiplexado de displays**, lo que permite controlar 4 dígitos usando:
@@ -99,7 +106,7 @@ El sistema funciona con:
 
 ---
 
-![Diagrama de General](esquemas/esquema-general.png)
+![Diagrama de General](Esquemas/esquema-general.png)
 
 ## Autor
 
