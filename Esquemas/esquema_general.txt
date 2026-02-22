@@ -1,0 +1,53 @@
+      🔋 BATERÍA 18650
+          (+)   (-)
+           |     |
+           |     |
+          B+     B-
+           \     /
+            \   /
+             TP4056
+        (Módulo cargador)
+
+        OUT+ -----------+
+                         |
+                         v
+                   DIODO 1N5819
+                 (protección inversa)
+                         |
+                         v
+                    INTERRUPTOR
+                         |
+                         v
+                   FUSIBLE PTC 1A
+                         |
+                         v
+                 MT3608 STEP-UP
+                (Elevador a 5V)
+
+               VIN+ <----+
+               VIN- ----- GND
+
+               VOUT+ ---- +5V
+               VOUT- ---- GND
+                         |
+                         |
+              +----------------------+
+              |                      |
+              v                      v
+
+        CONDENSADOR 1000µF      CONDENSADOR 100nF
+        (filtrado principal)    (ruido alta frecuencia)
+
+              |                      |
+              +----------+-----------+
+                         |
+                         v
+
+                   ARDUINO NANO
+                    5V   ← +5V
+                    GND  ← GND
+
+                         |
+        +----------------+----------------+
+        |                |                |
+     DISPLAY         TRANSISTORES       BOTONES
