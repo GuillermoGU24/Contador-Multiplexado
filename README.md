@@ -118,4 +118,4 @@ El sistema funciona con:
 
 ## 👨‍💻 Autor
 
-Proyecto desarrollado por **GuillerGU24**
+Proyecto desarrollado por **GuillermoGU24**
